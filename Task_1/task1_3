@@ -1,0 +1,10 @@
+The difference between long and long long:
+longs are both as wide as the integer register: RV32 = 32 bits, RV64 = 64 bits
+RV32 uses ILP32 model, RV64 uses LP64
+
+in both long long is 64-bit int
+
+summary: long in RV32 = 4 bytes, in RV64 = 8 bytes
+    long long in RV32 = 8 butes, in RV64 = 8 bytes
+
+//todo finish
